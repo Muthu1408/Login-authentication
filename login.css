@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: rgb(240, 245, 245);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(16, 13, 13, 0.763);
+    height: 125vh;
+
+}
+
+form {
+    background: rgba(16, 13, 13, 0.301);
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 10px 16px 20px rgb(0, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(16, 13, 13, 0.763);
+}
+
+label {
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #74b9ff;
+    box-shadow: 0 0 8px rgba(116, 185, 255, 0.8);
+}
+
+button:hover {
+    background: #45a049;
+}
+
+
+.confirmation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
